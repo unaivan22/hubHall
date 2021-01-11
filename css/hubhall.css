@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+
+.blog-title{
+    font-family: 'Capriola', sans-serif;
+    color: #253C74;
+}
+.desc {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #7585AA;
+}
+
+.user-photo {
+    border-radius: 50% !important;
+    object-fit: cover;
+}
