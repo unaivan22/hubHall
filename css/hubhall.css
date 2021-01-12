@@ -11,9 +11,14 @@
     overflow: hidden;
     text-overflow: ellipsis;
     color: #7585AA;
+    font-weight: 400;
 }
 
 .user-photo {
     border-radius: 50% !important;
     object-fit: cover;
+}
+
+.footer {
+    background-color: #FAFAFA;
 }
