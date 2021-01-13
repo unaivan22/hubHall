@@ -22,3 +22,11 @@
 .footer {
     background-color: #FAFAFA;
 }
+
+._search {
+    background-color: #F8FAFF !important;
+}
+
+._search input{
+    background-color: #F8FAFF !important;
+}
