@@ -55,7 +55,7 @@ var data1 = itemsHighlightStorie.reduce((aca, ele) => {
     <div class="card card-custom card-stretch gutter-b">
         <div class="card-body d-flex p-0">
             <div class="flex-grow-1 card-rounded flex-grow-1 bgi-no-repeat">
-            <a href="javascript:;">
+            <a href="detail.html">
                 <img class="rounded" src="${ele[0]}" alt="" style="width: 100%; height: 300px; object-fit: cover;">
             </a>    
             </div>
@@ -63,7 +63,7 @@ var data1 = itemsHighlightStorie.reduce((aca, ele) => {
     </div>
 </div>
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-    <a href="javascript:;">
+    <a href="detail.html">
         <h1 class="display-3 font-weight-bold blog-title">${ele[1]}</h1>
     </a>    
     <p class="desc">${ele[2]}</p>
