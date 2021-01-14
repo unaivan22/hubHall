@@ -24,11 +24,13 @@ var data0 = itemsTrending.reduce((ac, ele) => {
             </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <span class="label label-info label-inline font-weight-bold mb-2 mt-4">Trending</span>
+            <a href="javascript:;">
+                <span class="label label-info label-inline font-weight-bold mb-2 mt-4">Trending</span>
+            </a>
             <a href="javascript:;">
                 <h5 class="font-weight-bold blog-title">${ele[1]}</h5>
             </a>    
-            <p class="desc">${ele[2]}</p>
+            <p class="text-muted font-weight-bold">${ele[2]}</p>
         </div> 
     </div> 
 </div>
