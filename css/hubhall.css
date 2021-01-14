@@ -1,9 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
 
-.blog-title{
+.blog-title, .stories-title{
     font-family: 'Capriola', sans-serif;
     color: #253C74;
 }
+
+.card-sub-stories {
+    margin-bottom: -2.5em;
+}
+/* .stories-title {
+display: block;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 3.6em;
+  line-height: 1.8em;
+} */
+
 .desc {
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -17,6 +30,7 @@
 .user-photo {
     border-radius: 50% !important;
     object-fit: cover;
+    height: 3em; width: 3em;
 }
 
 .footer {
@@ -29,4 +43,10 @@
 
 ._search input{
     background-color: #F8FAFF !important;
+}
+
+.img-stories {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
 }
