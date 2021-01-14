@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
 
+#_name {
+    color: #F64E60;
+}
+
 .blog-title, .stories-title{
     font-family: 'Capriola', sans-serif;
     color: #253C74;
@@ -43,6 +47,11 @@ display: block;
 
 ._search input{
     background-color: #F8FAFF !important;
+}
+
+.img-highlight{
+    width: 100%;
+    height: 130px;
 }
 
 .img-stories {

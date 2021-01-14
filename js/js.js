@@ -1,4 +1,44 @@
 
+var itemsTrending = [
+    ['media/trending/trending0.png', 
+        'Global coronavirus cases surpass 90 million in battle on new variant ', 
+        '12 January 2020'],
+    ['media/trending/trending1.png', 
+        'Wall Street analysts are cautiously optimistic on British', 
+        '12 January 2020'],
+]
+  
+var data0 = itemsTrending.reduce((ac, ele) => {
+  
+    ac += `<div class="col-6">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="card card-custom card-stretch gutter-b">
+                <div class="card-body d-flex p-0">
+                    <div class="flex-grow-1 card-rounded flex-grow-1 bgi-no-repeat">
+                    <a href="javascript:;">
+                        <img class="rounded img-highlight" src="${ele[0]}" alt="" style=" object-fit: cover;">
+                    </a>    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <span class="label label-info label-inline font-weight-bold mb-2 mt-4">Trending</span>
+            <a href="javascript:;">
+                <h5 class="font-weight-bold blog-title">${ele[1]}</h5>
+            </a>    
+            <p class="desc">${ele[2]}</p>
+        </div> 
+    </div> 
+</div>
+    `
+
+    return ac;
+  
+  }, '')
+document.getElementById("trending-content").innerHTML = data0;
+
 var itemsHighlightStorie = [
     ['media/highlight/highlight.png', 
         'Tips for Sharing code between NuxtJS Projects', 
@@ -7,7 +47,7 @@ var itemsHighlightStorie = [
         'Debra Johanson', 145],
 ]
   
-var data0 = itemsHighlightStorie.reduce((aca, ele) => {
+var data1 = itemsHighlightStorie.reduce((aca, ele) => {
   
     aca += `<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
     <div class="card card-custom card-stretch gutter-b">
@@ -44,7 +84,7 @@ var data0 = itemsHighlightStorie.reduce((aca, ele) => {
     return aca;
   
   }, '')
-document.getElementById("highlight-storie").innerHTML = data0;
+document.getElementById("highlight-storie").innerHTML = data1;
 
 var itemsSubStories = [
     ['media/sub/sub-0.png', 
@@ -79,7 +119,7 @@ var itemsSubStories = [
         'Adam Mccoy', 12],
 ]
   
-  let data1 = itemsSubStories.reduce((acc, ele) => {
+  let data2 = itemsSubStories.reduce((acc, ele) => {
   
     acc += `<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 card-sub-stories">
                 <a href="javascript:;">
@@ -108,4 +148,4 @@ var itemsSubStories = [
   
   }, '')
 
-document.getElementById("subs-stories").innerHTML = data1;
+document.getElementById("subs-stories").innerHTML = data2;
