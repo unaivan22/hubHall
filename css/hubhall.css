@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 
 #_name {
     color: #F64E60;
 }
 
 .blog-title, .stories-title{
-    font-family: 'Capriola', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: #253C74;
 }
 
@@ -28,7 +29,7 @@ display: block;
     overflow: hidden;
     text-overflow: ellipsis;
     color: #7585AA;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .user-photo {
